@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "popups",
+  "info": {
+    "singularName": "popup",
+    "pluralName": "popups",
+    "displayName": "Popup"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "PhoneNumber": {
+      "type": "integer"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Massage": {
+      "type": "text"
+    }
+  }
+}

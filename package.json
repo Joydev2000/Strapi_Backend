@@ -15,10 +15,10 @@
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.15.0",
-    "@strapi/plugin-users-permissions": "5.15.0",
-    "@strapi/provider-email-nodemailer": "^5.15.0",
-    "@strapi/strapi": "5.15.0",
+    "@strapi/plugin-cloud": "v5.15.1",
+    "@strapi/plugin-users-permissions": "v5.15.1",
+    "@strapi/provider-email-nodemailer": "^v5.15.1",
+    "@strapi/strapi": "v5.15.1",
     "pg": "^8.16.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

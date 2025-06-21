@@ -38,6 +38,12 @@
     "Description": {
       "type": "richtext",
       "required": true
+    },
+    "blog_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog-category.blog-category",
+      "inversedBy": "blogs"
     }
   }
 }
